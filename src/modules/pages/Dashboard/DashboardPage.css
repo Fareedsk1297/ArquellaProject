@@ -1,0 +1,95 @@
+.dashboardCC{
+    
+    padding: 24px;
+}
+
+.statusContainer table {
+    border-spacing: 0px 12px;
+}
+
+.statusContainer td {
+    padding-left: 75px;
+}
+
+.statusContainer tr {
+    border-radius: 4px !important;
+}
+
+.dashboardParentContainer{
+    
+}
+
+.dashboardLeftContainer{
+}
+.statusParentContainer{
+    gap: 30px;
+}
+
+.callStatusLeftContainer,.callStatusRightContainer{
+    height: 520px;
+    background: #FFF;
+}
+
+.callStatusGraphContainer{
+    height: 253px;
+    background: #FFF;
+}
+
+.dashboardRightContainer{
+    display: flex;
+    align-items: center;
+}
+.dashboardRightContainer img{
+    width: 100%;
+}
+
+/* liveCall--CSS */
+.dFlexLiveCall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dFlexLiveBedroom{
+    display: flex;
+    gap: 22px;
+}
+.typeStatus{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+.typeIcon{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    gap: 16px;
+}
+
+/* graph Tabs */
+.callStatusGraphContainer {
+    height: 253px;
+    padding: 0px !important;
+}
+.callStatusGraphContainer .MuiTab-root.Mui-selected,.callStatusGraphContainer .MuiTabs-indicator{
+    color: #0EB9B3;
+}
+.callStatusGraphContainer .MuiTabs-indicator{
+    background-color: #0EB9B3;
+}
+
+.dateSelection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.dateText{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.dateImg{
+    margin-left: 52px;
+}

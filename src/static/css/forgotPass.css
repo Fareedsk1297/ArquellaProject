@@ -1,0 +1,56 @@
+.containerForm {
+
+    padding: "0px 0px 0px 0px";
+    margin: "0px 0px 0px 0px" !important;
+}
+
+.formUpperContent {
+    text-align: center;
+}
+
+.formContainer {
+    text-align: center;
+    border: solid #888C8C 1px;
+    border-radius: 26px;
+    height: 310px;
+    width: 374px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 50px; */
+}
+
+.LinkFp{
+    text-decoration: none !important;
+    color: #0EB9B3 !important;
+    font-size: 14px;
+font-family: Mulish;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.28px;
+}
+
+.loginBtnLabel{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 143% */
+    
+   
+    
+    /* M3/sys/light/on-primary */
+    
+    color: #1D192B;
+    }
+    
+
+    @media (max-width:600px){
+        .formContainer {
+            border: unset;
+        }
+        .fpContainer{
+            padding: 50px 0 0 0 !important;
+        }
+    }

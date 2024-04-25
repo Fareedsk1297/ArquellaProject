@@ -1,0 +1,180 @@
+.muliFont{
+  font-family: 'muli' !important;
+}
+
+.innerItemSpacing{
+    padding-left: 32px !important;
+}
+
+.nestedLvl1Style{
+    padding-left: 32px !important;
+    background-color: #fff !important;
+}
+
+.list-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    min-height: 36px;
+    cursor:move;
+    transition: all .2s ease-in-out;
+  }
+  
+  .shortCutLinkActivate{
+    background-color: #f5f5f5;
+  }
+  .shortCutLinkdeActivate{
+    background-color: #fff;
+  }
+  
+  .list-item:hover{
+    /* scale:1.02; */
+    background-color: #f5f5f5
+  }
+
+.shortListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: 220px;
+}
+
+.nestedContainerCollapse{
+  padding-left: 16px;
+}
+
+.colorIcon path{
+  fill: #0EB9B3 !important;
+}
+
+.neutralIcon path{
+  fill: #BDBDBD !important;
+}
+
+.activeListItemColor{
+  background-color: #F5F5F5 !important;
+}
+
+.deactiveListItemColor{
+  background-color: #FFF !important;
+  color: var(--grey-400, #BDBDBD) !important;
+}
+
+.innerItemSpacing span{
+  text-wrap:wrap;
+}
+
+.shortCutLinkActivate a{
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+.shortCutLinkdeActivate a{
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
+
+.removeEye{
+  display: none !important;
+}
+
+.list-item:hover > .removeEye{
+  display:flex !important;
+}
+
+.shortcutLinkText{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 172px;
+  list-style: none;
+  margin-left: 31px;
+}
+
+.iconLinkContainerShortLink{
+  display: flex;
+  align-items: center;
+}
+
+.shortcutText,.categoryTExt{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--grey-400, #BDBDBD);
+  padding-left: 4px;
+}
+.categoryTExt{
+  margin-top: 8px !important;
+}
+
+.innerLinkContainer :hover{
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.innerLinkContainerActive{
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.headerSearch input {
+  color: #9E9E9E;
+}
+
+.headerSearchContainer {
+    border-radius: 100px !important;
+    border: 1px solid var(--grey-200, #EEE) !important;
+    width: 323px !important;
+    height: 40px !important;
+    background: var(--grey-200, #EEE) !important;
+}
+
+.innerLinkTextActive >span{
+  color: var(--text-secondary, #000);
+  font-family: 'muli' !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.innerLinkText > span{ 
+  color: var(--text-secondary, #9E9E9E);
+  font-family: 'muli' !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.muliFont span{
+  font-family: 'muli' !important;
+}
+
+.sideBarProfileContainer{
+  padding: 25px;
+}
+
+.title{
+  color: var(--text-secondary, #9E9E9E);
+  font-size: 14px;
+}
+
+.innerLinkContainer{
+  margin-top: 2px;
+}
+
+.zIndexDrawer > div{
+  margin-top: 64px;
+  border: 0px;
+}
+
+.outletPaddingActive{
+  padding-left: 320px;
+}
+
+.outletPaddingDeActive{
+  padding-left: 95px;
+}

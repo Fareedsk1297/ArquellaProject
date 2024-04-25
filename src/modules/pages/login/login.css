@@ -1,0 +1,320 @@
+.loginImageCont {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(180deg, #01a6a1 0%, #10cfc9 100%);
+  /* background-image: url("honeycomb-1.svg") !important; */
+}
+
+.textWrap {
+  margin-left: 340px;
+  padding-top: 102px;
+  padding-left: 80px;
+}
+
+.formContent{
+  background: #fff !important;
+}
+
+.hedOne {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 53px;
+  /* or 166% */
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+}
+
+.hedTwo {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 53px;
+  /* or 166% */
+  color: #4cc1be;
+  margin: 0px 0px 0px 0px;
+}
+
+.formContainerTop {
+  background-color: #fffbff;
+}
+
+.hedOneLogo {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  /* line-height: 25px; */
+  /* identical to box height, or 129% */
+  text-align: center;
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+  margin-top: 24px;
+}
+
+.hedTwoLogo {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.4px;
+  line-height: 34.45px;
+  /* identical to box height, or 127% */
+  text-align: center;
+  /* Aequella 100 */
+  color: #fff;
+}
+
+.textLogo {
+  text-align: center;
+    padding-top: 102px;
+  
+}
+
+.uperContian {
+  text-align: center;
+  margin-top: 102px;
+}
+
+.checkboxCont {
+  display: flex;
+  margin-left: 22px;
+  margin-bottom: 15px;
+  margin-top: 39px;
+}
+
+.logoCont {
+  margin-top: 104px;
+  /* margin-left: 5%; */
+}
+
+.formCont {
+  margin-top: 10px;
+  border-radius: 30px;
+  border-width: 1;
+  border-color: black;
+}
+
+.pwText {
+  /* background-color: #000000; */
+  /* M3/sys/light/on-surface-variant */
+  width: 100%;
+}
+
+.pwText1 {
+  font-family: "muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  /* width: 262px; */
+  text-align: justify;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 4px;
+  /* M3/sys/light/on-surface-variant */
+
+  color: #49454f90;
+}
+
+.remember {
+  /* width: 102px; */
+  /* height: 24px; */
+
+  /* M3/body/large */
+
+  font-family: "muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* M3/sys/light/on-surface-variant */
+
+  color: #49454f;
+}
+
+.loginButton {
+  background: #10cfc9;
+}
+
+.forgotpw {
+  color: #0eb9b3 !important;
+  /* M3/label/large */
+
+  font-family: "muli" !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* M3/sys/light/primary */
+
+  text-decoration: inherit;
+  align-items: center;
+  margin-top: "15%";
+  margin-left: "5%";
+}
+
+.fwpw {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.registerButton {
+  font-family: "muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0EB9B3 !important;
+  text-transform: capitalize !important;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* M3/sys/light/primary */
+
+  color: #0eb9b3;
+}
+
+.loginBtnLabel {
+  font-family: "muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.ProjectDiv {
+  width: 75%;
+  margin: 280px auto;
+  /* width: 739px; */
+}
+
+.paperCarousel {
+  height: 270px;
+  padding: 32px;
+  background-color: #139894 !important;
+  border-radius: 20px !important;
+}
+
+.carouselContent {
+  font-family: "muli";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37.5px;
+  color: #fff;
+  margin-left: 32px;
+}
+
+.rightRegContainer{
+  background-color: #fff !important;
+  z-index: 999 !important;
+}
+
+.loginBtn:hover{
+  background-color: #0CA19C !important;
+}
+
+.formParentContainer{
+    position: relative;
+    z-index: 999;
+    height: 100% !important;
+    background: #fff;
+}
+
+.formTitleHeader{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  min-height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(14, 185, 179, 0.20);
+color: #000;
+font-size: 40px !important;
+font-family: Mulish !important;
+font-weight: 600 !important;
+line-height: 52px !important;
+}
+
+.MuiOutlinedInput-notchedOutline{
+  border-color: #4CC1BE !important;
+}
+
+@media (max-width: 1366px) {
+  .textWrap {
+    margin-left: 0px;
+  }
+  .loginImageCont {
+    /* background-image: url(/imgBg.png); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formParentContainer {
+    box-shadow: none !important;
+    border: none !important;
+    margin-top: 0px !important;
+  }
+  .ProjectDiv{
+    display: none;
+  }
+  .leftCombImg{
+    width: 100%;
+    position: unset;
+  }
+  .rightCombImg{
+    display: none;
+  }
+  .loginImageCont{
+    height: 300px;
+  }
+  /* .textWrap{
+    display: none;
+  } */
+  .outerContainerLogin{
+    flex-direction: column;
+  }
+  .formContent{
+    z-index: 10;
+  }
+  .textLogo{
+    padding-top: 102px;
+  }
+  .uperContian {
+    margin-top: 0px;
+  }
+  .formTitleHeader {
+    margin-bottom: 24px !important;
+  }
+}

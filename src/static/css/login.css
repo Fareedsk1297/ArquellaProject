@@ -1,0 +1,80 @@
+.loginImageCont {
+    background-image: url(../assets/images/Rectangle\ 100.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.textWrap {
+    margin-left: 300px;
+    padding-top: 66px;
+    padding-left: 80px;
+
+}
+
+.hedOne {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 166% */
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.hedTwo {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 166% */
+    color: #4CC1BE;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.hedOneLogo {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 129% */
+    text-align: center;
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.hedTwoLogo {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    /* identical to box height, or 127% */
+    text-align: center;
+    /* Aequella 100 */
+    color: #10CFC9;
+    margin: 0px 0px 0px 0px;
+
+
+}
+
+.textLogo{
+    text-align: center;
+}
+
+.uperContian{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.checkboxCont{
+    display: flex;
+}
